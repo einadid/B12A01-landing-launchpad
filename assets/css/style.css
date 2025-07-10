@@ -130,6 +130,27 @@
     transform: translateY(0);
     box-shadow: none;
 }
+
+
+
+
+.hover-btn {
+  background-color: #4E47FF; 
+  color: rgb(255, 255, 255);
+  padding: 12px 28px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.hover-btn:hover {
+  background-color: #D1D5DB; 
+  color: rgb(0, 0, 0);
+  transform: scale(1.1);
+}
+
 /* end button */
 
 
@@ -403,7 +424,7 @@ nav a{
 /* email-box */
 
 .email-title{
-    font-size: 64px; 
+    font-size: 97px; 
     font-weight: 800; 
     color: #111827; 
     margin-bottom: 20px;
