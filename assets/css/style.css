@@ -41,6 +41,16 @@
     padding: 20px 40px;
     border-radius: 16px;
 }
+.button-regular{
+    font-family: "Raleway", sans-serif;
+    background-color: #4E47FF;
+    font-weight: 400;  
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 20px 50px;
+    border-radius: 16px;
+}
 
 /* background-image */
 .background-image{
@@ -272,6 +282,48 @@ nav a{
     opacity: 0.5;
     margin-bottom: 30px;
 }
+
+.feature-image {
+    border-radius: 48px;
+    margin: 20px 150px 70px 150px;
+    width: auto;
+}
+
+
+/* email-box */
+
+.email-title{
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+}
+.email-box{
+    margin: 70px 150px;
+    display: flex;
+    gap: 117px;
+}
+
+.email-column {
+    width: 50%;
+}
+
+ input[type="text"] ,  input[type="email"],  textarea {
+    height: 64px;
+    
+    border-radius: 5px;
+    background-color: #ffffff;
+    display: block;
+    width: 80%;
+    gap: 2px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border-radius: 10px;
+    
+}
+
+
+
+
 
 
 
